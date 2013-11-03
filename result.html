@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<title>黄金点结果</title>
+	<link href="css/gnumber.css" type="text/css" rel="stylesheet" />
+	<link href="css/basic.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/enhance.js"></script>	
+	<script type="text/javascript">
+		// Run capabilities test
+		enhance({
+			loadScripts: [
+				{src: 'js/excanvas.js', iecondition: 'all'},
+				'js/jquery.js',
+				'js/visualize.jQuery.js',
+				'js/example.js'
+			],
+			loadStyles: [
+				'css/visualize.css',
+				'css/visualize-dark.css'
+			]	
+		});   
+
+    </script>
+</head>
+<body>
+	<div class="main">
+		<div class="gameNumber">第<lable id="gameNumber"></lable>场情况</div>
+		<div>
+			<table id='gnumber' class='hided'>
+				<caption>G-number</caption>
+				<thead>
+					<tr>
+						<td></td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">GoldNumber</th>
+					</tr>	
+				</tbody>
+			</table>
+		</div>	
+		<div><table id='userList'>
+			<thead>
+				<tr>
+					<th>ranking</th>
+					<th>UserName</th>
+					<th>point</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+</div>
+</body>
+    <script type="text/javascript" src="js/getResult.js"></script>	
+</html>

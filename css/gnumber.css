@@ -1,0 +1,22 @@
+.hided{
+	display:none;
+}
+body{
+	margin: 0;
+}
+table{
+	width:700px;
+	margin: 0px auto;
+	padding:0px auto;
+}
+.gameNumber{
+	float:clear;
+	font-size: 24px;
+	margin:40px auto;
+	padding:0px auto;
+}
+.main{
+	width:1000px;
+	margin: 0px auto;
+	padding:0px auto;
+}
